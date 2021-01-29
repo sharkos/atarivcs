@@ -28,7 +28,7 @@ For example:
 git clone https://github.com/sharkos/atarivcs.git
 cd atarivcs
 sudo cp vcschroot.sh /usr/local/bin/vcschroot
-sudo chown a+x /usr/local/bin/vcschroot
+sudo chmod a+x /usr/local/bin/vcschroot
 
 
 Have a lot of fun!
