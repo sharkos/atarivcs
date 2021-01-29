@@ -1,0 +1,34 @@
+==============================================================================
+   ______ _______ _______  ______  _____       _______ _     _ _____ _______
+  |_____/ |______    |    |_____/ |     |      |_____|  \___/    |   |______
+  |    \_ |______    |    |    \_ |_____|      |     | _/   \_ __|__ ______|
+                                                                           
+==============================================================================
+     Program: vcschroot.sh
+      Author: retroaxis.tv
+         Ver: 20210128
+ Description: This script creates demonstrates 
+              How to retrieve the BIOS Password on an AtariVCS
+              from a Linux OS.  Requires the correctly installed
+              package from your distribution with the efivar command
+
+==============================================================================
+
+=== What is this ===
+'vcschroot' is a bash script that prepare a chrooted environment for shelling
+into the Atari VCS Operating system from another Linux host OS running locally
+on the machine.
+
+=== Installation ===
+
+Download the 'vcschroot.sh' file or clone the repo and make it executable.
+
+For example:
+
+git clone https://github.com/sharkos/atarivcs.git
+cd atarivcs
+sudo cp vcschroot.sh /usr/local/bin/vcschroot
+sudo chown a+x /usr/local/bin/vcschroot
+
+
+Have a lot of fun!
